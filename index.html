@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#4A1080" />
+  <title>Happy 19th Birthday, Salvie! 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Great+Vibes&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="nav-logo">✦</span>
+      <span class="nav-name">Salvie</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-section="home">🏠 Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">💜 About Her</a></li>
+      <li><a href="#message" class="nav-link" data-section="message">✉️ Message</a></li>
+      <li><a href="#pictures" class="nav-link" data-section="pictures">📸 Her Pictures</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section id="home" class="section hero-section">
+    <div class="hero-bg">
+      <div class="petal" style="--i:0"></div>
+      <div class="petal" style="--i:1"></div>
+      <div class="petal" style="--i:2"></div>
+      <div class="petal" style="--i:3"></div>
+      <div class="petal" style="--i:4"></div>
+      <div class="petal" style="--i:5"></div>
+      <div class="petal" style="--i:6"></div>
+      <div class="petal" style="--i:7"></div>
+      <div class="star-field">
+        <span class="star" style="--x:10%;--y:20%;--d:1.2s"></span>
+        <span class="star" style="--x:30%;--y:60%;--d:0.8s"></span>
+        <span class="star" style="--x:55%;--y:15%;--d:1.5s"></span>
+        <span class="star" style="--x:70%;--y:50%;--d:0.6s"></span>
+        <span class="star" style="--x:85%;--y:30%;--d:1.1s"></span>
+        <span class="star" style="--x:20%;--y:80%;--d:1.3s"></span>
+        <span class="star" style="--x:90%;--y:75%;--d:0.9s"></span>
+        <span class="star" style="--x:45%;--y:90%;--d:1.4s"></span>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-pre reveal">— With love and blessings —</p>
+      <h1 class="hero-title reveal">
+        <span class="script-line">Happy</span>
+        <span class="number-line"><span class="num" id="countTo19">19</span><sup>th</sup></span>
+        <span class="script-line">Birthday</span>
+      </h1>
+      <h2 class="hero-name reveal">Salvie Lagahan</h2>
+      <p class="hero-verse reveal">
+        <span class="quote-mark">"</span>
+        This is the day the Lord has made; let us rejoice and be glad in it.
+        <span class="quote-mark">"</span>
+        <br /><em>— Psalm 118:24</em>
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#about" class="btn btn-primary">Discover Her Story</a>
+        <a href="#message" class="btn btn-ghost">Read Message</a>
+      </div>
+    </div>
+
+    <div class="scroll-down">
+      <div class="scroll-arrow"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="eyebrow">She is one of a kind</p>
+        <h2 class="section-title">About <span class="purple">Salvie</span></h2>
+        <div class="title-deco"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo-col">
+          <div class="photo-frame main-photo">
+            <div class="photo-placeholder">
+              <span class="photo-icon">🌸</span>
+              <p>Salvie's Photo</p>
+              <small>Replace with actual image</small>
+            </div>
+            <div class="frame-ribbon">19</div>
+          </div>
+        </div>
+
+        <div class="about-text-col">
+          <div class="about-card reveal-up">
+            <div class="card-icon">🎂</div>
+            <h3>Celebrating 19 Years</h3>
+            <p>Today marks an extraordinary milestone — 19 beautiful years of life, laughter, faith, and love. Salvie Lagahan, you are a treasure to everyone around you.</p>
+          </div>
+
+          <div class="about-card reveal-up" style="animation-delay:.15s">
+            <div class="card-icon">🌸</div>
+            <h3>Her Beautiful Soul</h3>
+            <p>Kind-hearted, full of grace, and overflowing with warmth. Salvie carries a light that brightens every room she walks into and every heart she touches.</p>
+          </div>
+
+          <div class="about-card reveal-up" style="animation-delay:.3s">
+            <div class="card-icon">✝️</div>
+            <h3>A Woman of Faith</h3>
+            <p>Grounded in faith and guided by God's word, Salvie walks with purpose and hope. Her trust in the Lord is her greatest strength and most beautiful attribute.</p>
+          </div>
+
+          <div class="about-card reveal-up" style="animation-delay:.45s">
+            <div class="card-icon">🌟</div>
+            <h3>Bright Future Ahead</h3>
+            <p>At 19, she stands at the threshold of an incredible journey. With wisdom beyond her years and a heart full of dreams, her best chapters are just beginning.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bible Verse: Inspiring -->
+      <div class="verse-banner">
+        <div class="verse-icon">📖</div>
+        <div class="verse-content">
+          <p class="verse-tag">✦ A Verse to Inspire Her ✦</p>
+          <blockquote>
+            "She is clothed with strength and dignity, and she laughs without fear of the future."
+          </blockquote>
+          <cite>— Proverbs 31:25</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MESSAGE ===== -->
+  <section id="message" class="section message-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="eyebrow">Words from the heart</p>
+        <h2 class="section-title">A Special <span class="gold">Message</span></h2>
+        <div class="title-deco gold-deco"></div>
+      </div>
+
+      <div class="message-layout">
+        <div class="message-card big-message reveal-up">
+          <div class="message-quote-deco">"</div>
+          <p>Dear Salvie,</p>
+          <p>
+            On this beautiful day, we celebrate not just your birthday, but the extraordinary person God has created you to be. At 19, you carry within you a spirit full of promise, a heart full of love, and a faith that moves mountains.
+          </p>
+          <p>
+            Every step you take is guided by hands greater than our own. Every dream you hold has been planted there by God Himself — and He does not plant dreams He does not intend to grow. So keep dreaming. Keep believing. Keep shining.
+          </p>
+          <p>
+            You are deeply loved, incredibly valued, and abundantly blessed. May this year of your life open doors that no one can shut, may it bring joy that overflows, and may you feel the warmth of God's presence in every single moment.
+          </p>
+          <p class="sign-off">
+            Happy 19th Birthday, Salvie! <br />
+            <span class="script-text">With all our love 💜</span>
+          </p>
+        </div>
+
+        <div class="verses-column">
+          <!-- Verse 1: Birthday -->
+          <div class="verse-card reveal-up" style="animation-delay:.1s">
+            <div class="verse-card-tag">🎂 For Your Birthday</div>
+            <blockquote>
+              "The Lord bless you and keep you; the Lord make His face shine on you and be gracious to you."
+            </blockquote>
+            <cite>— Numbers 6:24–25</cite>
+          </div>
+
+          <!-- Verse 2: Assurance for the Future -->
+          <div class="verse-card reveal-up" style="animation-delay:.2s">
+            <div class="verse-card-tag">🌟 Assurance for Your Future</div>
+            <blockquote>
+              "For I know the plans I have for you, declares the Lord — plans to prosper you and not to harm you, plans to give you hope and a future."
+            </blockquote>
+            <cite>— Jeremiah 29:11</cite>
+          </div>
+
+          <!-- Verse 3: Strength -->
+          <div class="verse-card reveal-up" style="animation-delay:.3s">
+            <div class="verse-card-tag">💪 When You Need Strength</div>
+            <blockquote>
+              "I can do all things through Christ who strengthens me."
+            </blockquote>
+            <cite>— Philippians 4:13</cite>
+          </div>
+
+          <!-- Verse 4: God's Presence -->
+          <div class="verse-card reveal-up" style="animation-delay:.4s">
+            <div class="verse-card-tag">🕊️ God is With You</div>
+            <blockquote>
+              "Do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you."
+            </blockquote>
+            <cite>— Isaiah 41:10</cite>
+          </div>
+
+          <!-- Verse 5: Trust -->
+          <div class="verse-card reveal-up" style="animation-delay:.5s">
+            <div class="verse-card-tag">🌿 Trust in Him</div>
+            <blockquote>
+              "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to Him, and He will make your paths straight."
+            </blockquote>
+            <cite>— Proverbs 3:5–6</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PICTURES ===== -->
+  <section id="pictures" class="section pictures-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="eyebrow">Memories & Moments</p>
+        <h2 class="section-title">Her <span class="purple">Pictures</span></h2>
+        <div class="title-deco"></div>
+      </div>
+
+      <p class="gallery-note">
+        ✨ Replace the placeholder boxes below with Salvie's actual photos. <br />
+        Simply swap the <code>&lt;img&gt;</code> src paths in <code>index.html</code>.
+      </p>
+
+      <div class="gallery-grid">
+        <!-- Picture 1 -->
+        <div class="gallery-card tall reveal-up" style="animation-delay:0s">
+          <div class="gallery-img-wrap">
+            <img src="photo1.jpg" alt="Salvie - Photo 1" class="gallery-img" onerror="this.parentElement.classList.add('no-img'); this.style.display='none'" />
+            <div class="gallery-placeholder"><span>🌸</span><p>Photo 1</p></div>
+          </div>
+          <div class="gallery-caption">
+            <span class="gallery-label">A Beautiful Smile</span>
+          </div>
+        </div>
+
+        <!-- Picture 2 -->
+        <div class="gallery-card reveal-up" style="animation-delay:.1s">
+          <div class="gallery-img-wrap">
+            <img src="photo2.jpg" alt="Salvie - Photo 2" class="gallery-img" onerror="this.parentElement.classList.add('no-img'); this.style.display='none'" />
+            <div class="gallery-placeholder"><span>💜</span><p>Photo 2</p></div>
+          </div>
+          <div class="gallery-caption">
+            <span class="gallery-label">Full of Grace</span>
+          </div>
+        </div>
+
+        <!-- Picture 3 -->
+        <div class="gallery-card reveal-up" style="animation-delay:.2s">
+          <div class="gallery-img-wrap">
+            <img src="photo3.jpg" alt="Salvie - Photo 3" class="gallery-img" onerror="this.parentElement.classList.add('no-img'); this.style.display='none'" />
+            <div class="gallery-placeholder"><span>✨</span><p>Photo 3</p></div>
+          </div>
+          <div class="gallery-caption">
+            <span class="gallery-label">Shining Bright</span>
+          </div>
+        </div>
+
+        <!-- Picture 4 -->
+        <div class="gallery-card wide reveal-up" style="animation-delay:.3s">
+          <div class="gallery-img-wrap">
+            <img src="photo4.jpg" alt="Salvie - Photo 4" class="gallery-img" onerror="this.parentElement.classList.add('no-img'); this.style.display='none'" />
+            <div class="gallery-placeholder"><span>🌟</span><p>Photo 4</p></div>
+          </div>
+          <div class="gallery-caption">
+            <span class="gallery-label">God's Masterpiece</span>
+          </div>
+        </div>
+
+        <!-- Picture 5 -->
+        <div class="gallery-card tall reveal-up" style="animation-delay:.4s">
+          <div class="gallery-img-wrap">
+            <img src="photo5.jpg" alt="Salvie - Photo 5" class="gallery-img" onerror="this.parentElement.classList.add('no-img'); this.style.display='none'" />
+            <div class="gallery-placeholder"><span>🌺</span><p>Photo 5</p></div>
+          </div>
+          <div class="gallery-caption">
+            <span class="gallery-label">A Woman of Faith</span>
+          </div>
+        </div>
+
+        <!-- Picture 6 -->
+        <div class="gallery-card reveal-up" style="animation-delay:.5s">
+          <div class="gallery-img-wrap">
+            <img src="photo6.jpg" alt="Salvie - Photo 6" class="gallery-img" onerror="this.parentElement.classList.add('no-img'); this.style.display='none'" />
+            <div class="gallery-placeholder"><span>🎉</span><p>Photo 6</p></div>
+          </div>
+          <div class="gallery-caption">
+            <span class="gallery-label">Celebrating Life</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Final Verse: Future Assurance -->
+      <div class="verse-banner gold-banner">
+        <div class="verse-icon">🕊️</div>
+        <div class="verse-content">
+          <p class="verse-tag">✦ An Assurance For Her Journey ✦</p>
+          <blockquote>
+            "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
+          </blockquote>
+          <cite>— Isaiah 40:31</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-flowers">
+        <span>🌸</span><span>💜</span><span>🌸</span><span>💜</span><span>🌸</span>
+      </div>
+      <p class="footer-script">Happy 19th Birthday, Salvie!</p>
+      <p class="footer-sub">May God's love surround you today and always.</p>
+      <p class="footer-copy">Made with 💜 — April 2026</p>
+    </div>
+  </footer>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Lightbox" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
